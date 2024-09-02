@@ -1,0 +1,210 @@
+/* start css for home/frontpage */
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color:#ffffff;
+}
+
+header{
+    padding: 10px 0;
+}
+
+ .nav-display{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+
+
+#tit{
+ color: #000000 ;
+}
+
+.titty{
+    color: gold;
+}
+
+li  {
+    list-style: none; 
+    padding: 20px;
+      
+}
+
+a{
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.right-side{
+    display: flex;
+}
+
+.right-side li{
+    margin-left: 20px;
+}
+
+select{
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.icon{
+    color: #333; 
+    font-size: 15px; 
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+.container img{
+    margin: 20px 30px;
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+
+.intro_txt{
+    font-size: 45px;
+    color:#212121;
+    margin-left: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.explore{
+    text-align: center;
+}
+
+.explore_btn{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+ button :hover ::after{
+        color: black;
+        background-color: white;
+}
+
+
+.card_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+/* end of home/frontpage css*/
+
+/* start of employee login form css*/
+
+
+#form_hd {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin:auto
+}
+
+.form_input {
+    margin-bottom: 15px;
+}
+
+.form_input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form_input input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#form_btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#form_btn:hover {
+    background-color: #555;
+}
+
+p{
+    text-align: center;
+}
+    
+
+
